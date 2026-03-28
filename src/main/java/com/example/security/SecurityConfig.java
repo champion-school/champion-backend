@@ -38,8 +38,9 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        // ⭐ allow all (safe for now, restrict later)
-        config.setAllowedOriginPatterns(List.of("*"));
+        config.setAllowedOrigins(List.of(
+                "https://champions-frontend-three.vercel.app"
+        ));
 
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS"
