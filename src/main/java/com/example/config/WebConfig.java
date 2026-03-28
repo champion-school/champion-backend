@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-            .allowedOrigins("https://champions-frontend-9lpolspdm-sathyadharshinis-projects.vercel.app/")
+            .allowedOrigins("https://champions-frontend-9lpolspdm-sathyadharshinis-projects.vercel.app")
             .allowedMethods("*")
             .allowedHeaders("*");
     }

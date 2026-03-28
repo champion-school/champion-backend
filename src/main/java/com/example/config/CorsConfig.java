@@ -11,7 +11,7 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
 
         registry.addMapping("/**")
-                .allowedOrigins("https://champions-frontend-9lpolspdm-sathyadharshinis-projects.vercel.app/")
+                .allowedOrigins("https://champions-frontend-9lpolspdm-sathyadharshinis-projects.vercel.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
