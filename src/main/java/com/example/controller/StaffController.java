@@ -11,7 +11,7 @@ import com.example.service.StaffService;
 
 @RestController
 @RequestMapping("/staff")
-@CrossOrigin
+
 public class StaffController {
 
     @Autowired

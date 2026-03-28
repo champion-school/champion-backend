@@ -10,7 +10,7 @@ import com.example.service.RegisterService;
 
 @RestController
 @RequestMapping("/register")
-@CrossOrigin(origins="*")
+
 public class RegisterController {
 
 @Autowired

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/enquiry")
-@CrossOrigin(origins ="*")
+
 public class EnquiryController {
 
     @Autowired
