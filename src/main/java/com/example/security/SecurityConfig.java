@@ -39,7 +39,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(List.of(
-                "https://champions-frontend-three.vercel.app"
+                "https://cismdu.in",
+                "https://www.cismdu.in"
         ));
 
         config.setAllowedMethods(List.of(
